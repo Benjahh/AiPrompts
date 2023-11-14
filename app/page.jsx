@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
     <section className="flex-center flex-col w-full">
@@ -6,6 +8,7 @@ const Home = () => {
         <span className="orange_gradient text-center">AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">Open source AI Prompt Generation</p>
+      <Feed />
     </section>
   );
 };
